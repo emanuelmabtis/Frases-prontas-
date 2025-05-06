@@ -1,0 +1,17 @@
+[
+  {
+    "frase": "Esse produto vende sozinho. O problema é ter estoque!",
+    "categoria": "Conversão",
+    "acesso": "Grátis"
+  },
+  {
+    "frase": "As vagas acabam hoje. Decide agora ou assiste depois!",
+    "categoria": "Urgência",
+    "acesso": "Pago"
+  },
+  {
+    "frase": "Usei, testei e recomendo de olhos fechados.",
+    "categoria": "Autoridade",
+    "acesso": "Grátis"
+  }
+]
