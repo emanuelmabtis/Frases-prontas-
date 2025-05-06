@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frases que Vendem</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Frases que Vendem</h1>
+    <button onclick="toggleTheme()">Modo Claro/Escuro</button>
+  </header>
+
+  <section id="filtros">
+    <select id="categoriaSelect" onchange="filtrarFrases()">
+      <option value="">Todas as Categorias</option>
+      <option value="Atração">Atração</option>
+      <option value="Urgência">Urgência</option>
+      <option value="Conversão">Conversão</option>
+    </select>
+    <label><input type="checkbox" id="gratisCheckbox" onchange="filtrarFrases()"> Somente grátis</label>
+  </section>
+
+  <main id="listaFrases"></main>
+
+  <footer>
+    <p><a href="https://wa.me/SEUNUMERO">Assine e libere todas as frases</a></p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
